@@ -11,9 +11,9 @@ import java.util.concurrent.TimeUnit;
 public class Launcher {
     public static final boolean isWindows = true;
 
-    public static void main(String args[]){
-        Launcher.openFileInVS("Variables.java");
-    }
+    // public static void main(String args[]){
+    //     Launcher.openFileInVS("Variables.java");
+    // }
     public static void openFileInVS(String filepath){
         try {
             runCommand(new File(Variables.Global.program_parent_folder_path+Variables.Global.game_name+"\\src\\"+Variables.Global.developer+"\\"+Variables.Global.game_name.toLowerCase()), "code "+filepath);

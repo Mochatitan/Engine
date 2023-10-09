@@ -12,5 +12,7 @@ public class Variables {
         public static String program_parent_folder_path = "C:\\Users\\rossilt\\Desktop\\coding\\";
         public static String developer = "mochatitan";
         public static String game_name = "Engine"; //the name WITH CAPITAL FIRST LETTER!!!
+
+        public static String scene = "one";
     }
 }
